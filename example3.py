@@ -35,7 +35,7 @@ print("=============================\n\n\n")
 print("=============================")
 print(" Ex2: If..Elif statement     ")
 print("=============================")
-bobLikesHockey = True
+bobLikesHockey = False
 bobLikesSoccer = True
 bobLikesFootball = False
 if bobLikesHockey:
