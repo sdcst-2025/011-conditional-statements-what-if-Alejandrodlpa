@@ -20,3 +20,11 @@ positive
 Enter a number: -1.2
 negative
 """
+import math
+num=float(input("Enter number: "))
+if num>0:
+    print("The number is positive")
+if num<0:
+    print("The number is negative")
+if num==0:
+    print("the number is 0")

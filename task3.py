@@ -31,3 +31,12 @@ Enter a number: 10000
 
 
 """
+num=float(input("Enter a number: "))
+if 100>=num>=0:
+    print("0")
+elif 100>=num>10:
+    print("1")
+elif 1000>=num>100:
+    print("2")
+elif num>=1000:
+    print("3")

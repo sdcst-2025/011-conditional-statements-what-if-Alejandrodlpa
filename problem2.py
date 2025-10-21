@@ -12,10 +12,10 @@
 # "the number is not an integer"
 import math 
 
-number=float(input("Give me a number"))
+number=(input("Give me a number "))
 
 
-if "." in str(number):
+if "." in number:
     print("Your number is not an integer")
 else:
     print("Your number is an integer")

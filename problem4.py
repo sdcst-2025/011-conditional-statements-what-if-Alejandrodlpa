@@ -12,8 +12,8 @@
 
 # Outputs:
 # - "that is a right triangle"
-# - "that is an acute triangle"
-# - "that is an obtuse triangle"
+# - "that is an acute triangle" below min
+# - "that is an obtuse triangle" over max
 """
 Example:
 Enter one side: 5
@@ -33,3 +33,13 @@ that is an obtuse triangle
 
 
 """
+
+
+
+
+
+a=input("Enter one side")
+b=input("Enter second side")
+c=input("Enter third side")
+
+
