@@ -29,3 +29,16 @@ Enter c: 8
 the equation can not be factored
 
 """
+import math 
+a=float(input("Enter a: "))
+b=float(input("Enter b: "))
+c=float(input("Enter c: "))
+x=(b**2-(4*a*c))
+if x<=0:
+    print("The ecuation has no solutions ")
+y=x**(1/2)
+z=y**2
+if z==x:
+    print("The ecuation can be factored")
+else:
+    print("The ecuation can't be factored")

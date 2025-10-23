@@ -29,5 +29,3 @@ if num==100:
     print("the number is 100")
 
 
-
-
